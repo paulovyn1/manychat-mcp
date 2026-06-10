@@ -51,7 +51,7 @@ if (Test-Path $INSTALL_DIR) {
 }
 New-Item -ItemType Directory -Path $INSTALL_DIR | Out-Null
 
-$REPO_URL = "https://github.com/triwer/manychat-mcp/archive/refs/heads/main.zip"
+$REPO_URL = "https://github.com/paulovyn1/manychat-mcp/archive/refs/heads/main.zip"
 $ZIP_PATH = "$env:TEMP\manychat-mcp.zip"
 
 Invoke-WebRequest -Uri $REPO_URL -OutFile $ZIP_PATH

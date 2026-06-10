@@ -40,7 +40,7 @@ rm -rf "$INSTALL_DIR"
 mkdir -p "$INSTALL_DIR"
 
 echo "⏳ Baixando arquivos..."
-curl -fsSL https://github.com/triwer/manychat-mcp/archive/refs/heads/main.tar.gz | tar -xz -C "$INSTALL_DIR" --strip-components=1
+curl -fsSL https://github.com/paulovyn1/manychat-mcp/archive/refs/heads/main.tar.gz | tar -xz -C "$INSTALL_DIR" --strip-components=1
 
 echo "MANYCHAT_API_TOKEN=$TOKEN" > "$INSTALL_DIR/.env"
 echo "✅ Token salvo"

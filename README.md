@@ -37,7 +37,7 @@ Antes de instalar, garanta que voce tem:
 Abra o **PowerShell** e cole:
 
 ```powershell
-irm https://raw.githubusercontent.com/triwer/manychat-mcp/main/scripts/instalar-windows.ps1 | iex
+irm https://raw.githubusercontent.com/paulovyn1/manychat-mcp/main/scripts/instalar-windows.ps1 | iex
 ```
 
 ### Mac
@@ -45,7 +45,7 @@ irm https://raw.githubusercontent.com/triwer/manychat-mcp/main/scripts/instalar-
 Abra o **Terminal** e cole:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/triwer/manychat-mcp/main/scripts/instalar-mac.sh | bash
+curl -fsSL https://raw.githubusercontent.com/paulovyn1/manychat-mcp/main/scripts/instalar-mac.sh | bash
 ```
 
 Cole seu token quando solicitado. Depois feche e abra o Claude Desktop.
