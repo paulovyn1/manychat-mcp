@@ -23,7 +23,7 @@ echo ""
 echo "Cole seu token da API do ManyChat abaixo."
 echo "Para obter: Configuracoes > Interface de Programacao de Aplicativos > Obtenha a chave API"
 echo ""
-read -p "Token: " TOKEN
+read -p "Token: " TOKEN < /dev/tty
 
 if [ -z "$TOKEN" ]; then
     echo "❌ Token nao pode ser vazio!"
